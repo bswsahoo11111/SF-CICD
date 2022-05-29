@@ -1,3 +1,3 @@
-CREATE SCHEMA DEMO3;
-CREATE TABLE FIRST_TABLE_CICD(FIRST_NAME VARCHAR,LAST_NAME VARCHAR);
-insert into DEMO3.DEMO3.FIRST_TABLE_CICD values('rahul','jain');
+use database DEMO3;
+use schema DEMO3;
+insert into FIRST_TABLE_CICD values('rahul','jain');
